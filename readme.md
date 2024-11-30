@@ -1,6 +1,6 @@
 # Programming and Problem Solving Course Materials
 
-This repository contains all the materials I worked on during the **Programming and Problem Solving** course. It includes my solutions to self-study questions, lab assignments, graded assignments, lecture notes, and exam solutions. The content is structured to reflect my learning journey and progress in mastering the **C programming language**.
+This repository contains all the materials I worked on during the **Programming and Problem Solving** course, a lecture from my university. It includes my solutions to self-study questions, lab assignments, graded assignments, lecture notes, and exam solutions. The content is structured to reflect my learning journey and progress in mastering the **C programming language**.
 
 ---
 ## 📂 Repository Structure
@@ -25,7 +25,6 @@ This repository contains all the materials I worked on during the **Programming 
 ├── .gitignore                # Git ignore rules
 └── README.md                 # Repository overview
 ```
-
 
 ---
 
@@ -59,6 +58,7 @@ This repository contains all the materials I worked on during the **Programming 
    ```bash
    git clone https://github.com/umutcanekinci/programming-and-problem-solving.git
    cd programming-and-problem-solving
+   ```
 
 2. Explore the folders to find the specific content you're interested in.
 
@@ -66,13 +66,14 @@ This repository contains all the materials I worked on during the **Programming 
    ```bash
    gcc filename.c -o output  
    ./output
+   ```
 
 ## 🌟 Goals and Learning Outcomes
 Through this repository, I aim to:
 
  - Document my learning process in C programming.
-Share examples and solutions that might help others learning the language.
-Demonstrate my skills in problem-solving and structured programming.
+ - Share examples and solutions that might help others learning the language.
+ - Demonstrate my skills in problem-solving and structured programming.
 
 ## 📜 License
 This repository is for educational purposes only. Feel free to use it for reference or learning. Any direct reproduction for academic submissions is discouraged.
