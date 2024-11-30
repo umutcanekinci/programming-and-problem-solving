@@ -62,16 +62,21 @@ This repository contains all the materials I worked on during the **Programming 
 
 2. Explore the folders to find the specific content you're interested in.
 
-3. Compile and run the .c files using a C compiler (e.g., GCC):
-gcc filename.c -o output
-./output
+3. Compile and run the `.c` files using a C compiler (e.g., GCC): 
+   ```bash
+   gcc filename.c -o output  
+   ./output
 
-🌟 Goals and Learning Outcomes
+## 🌟 Goals and Learning Outcomes
 Through this repository, I aim to:
 
-Document my learning process in C programming.
+ - Document my learning process in C programming.
 Share examples and solutions that might help others learning the language.
 Demonstrate my skills in problem-solving and structured programming.
 
-📜 License
+## 📜 License
 This repository is for educational purposes only. Feel free to use it for reference or learning. Any direct reproduction for academic submissions is discouraged.
+
+---
+
+Happy coding!
