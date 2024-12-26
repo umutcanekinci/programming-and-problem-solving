@@ -156,6 +156,12 @@ void menu() {
 
 }
 
+void welcome() {
+
+    printf("Welcome to the Theater App");
+
+}
+
 int main() {
 
     menu();
