@@ -72,7 +72,7 @@ public:
     
     // Fill this function
     bool isFull() {
-        return rear == (front + capacity - 1) % capacity; // || (front == 0 && rear == 7);
+        return (rear == (front + capacity - 1) % capacity);// || (front == 0 && rear == 7);
         //return front + rear == capacity - 1;    
     }
     

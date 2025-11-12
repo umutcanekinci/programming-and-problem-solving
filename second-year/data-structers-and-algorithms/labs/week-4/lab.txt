@@ -1,0 +1,9 @@
+# Exercise 1
+Read the "clients.dat" file and create Person objects with name, department, and age variables.
+Then, add a functionality to create a new Person based on the user's input and write them to the file.
+
+Important: do not use/open the file you are trying to write with other applications such as Notepad or MS Docs;
+you may corrupt the file.
+
+# Exercise 2
+Fill in the functions given in the VPL assignment.

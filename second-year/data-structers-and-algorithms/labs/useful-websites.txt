@@ -1,0 +1,14 @@
+Data Structure Visualization
+https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+
+Big-O Cheat Sheet
+https://www.bigocheatsheet.com/
+
+Stack & Heap Memory
+https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap
+
+C Language Manual
+https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html
+
+C++ Language Manual
+https://cplusplus.com/doc/
