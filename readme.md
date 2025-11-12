@@ -1,83 +1,110 @@
-# Programming and Problem Solving Course Materials
+## Software Engineering — Course Materials & Assignments
 
-This repository contains all the materials I worked on during the **Programming and Problem Solving** course, a lecture from my university. It includes my solutions to self-study questions, lab assignments, graded assignments, lecture notes, and exam solutions. The content is structured to reflect my learning journey and progress in mastering the **C programming language**.
+This repository collects course materials, lab assignments, self-study work, exam solutions, and small projects completed during my university studies in software engineering and related programming courses. It is primarily organized by year and course, and contains sources in C, Java, C++ and text/notes.
+
+Use this README as a map to quickly find material for a specific class or assignment.
 
 ---
-## 📂 Repository Structure
+
+## Repository layout (top-level)
+
+Note: some folders may contain their own README files with course-specific instructions.
+
 ```
 .
-├── lab-assignments/          # Graded lab assignments
-│   ├── lab-assignment-1/     # First graded assignment
-│   ├── lab-assignment-2/     # Second graded assignment
-├── labs/                     # Weekly lab solutions
-│   ├── pdf/                  # PDF files related to lab tasks
-│   ├── lab1.c                # Lab 1 solution
-│   ├── lab2.c                # Lab 2 solution
-│   ├── ...                   # More lab solutions
-├── lecture-content/          # Content covered in lectures
-│   ├── geometry.h            # Example header file used in lectures
-│   ├── week-2.c              # Lecture notes/code for week 2
-│   ├── ...                   # More weekly lecture content
-├── midterm-2024-fall/        # Midterm exam solutions
-│   ├── my-solutions.c        # My midterm solutions
-│   ├── SE1105_m_2024Fall_ANSWERS.pdf # Official exam answers
-├── self-studies/             # Self-study exercises and solutions
-├── .gitignore                # Git ignore rules
-└── README.md                 # Repository overview
+├── first-year/                        # First year course materials and labs
+│   ├── programming-and-problem-solving-1/   # C-language course: labs, lectures, exams
+│   └── programming-and-problem-solving-2/   # Follow-up course: Java labs, quizzes
+├── second-year/                       # Second year courses (various)
+│   ├── data-structers-and-algorithms/ # DSA labs and assignments (C++/C)
+│   └── software-engineering-fundamentals/ # SE course materials
+├── LICENSE                             # Project license
+├── readme.md                           # This file (repository-level)
+└── (other course folders)
 ```
 
----
-
-## 📘 About the Repository
-
-### 1️⃣ **Lab Assignments**
-- These include graded assignments given throughout the course.
-- Each assignment is in its dedicated folder for clarity.
-
-### 2️⃣ **Labs**
-- Weekly lab exercises completed during the course.
-- Solutions demonstrate the practical application of lecture concepts.
-- Because of the health problems, I wasn't able to attend first two labs so, they are not my codes but other ones are my.
-
-### 3️⃣ **Lecture Content**
-- C programs and header files introduced during lectures.
-- Includes examples and key programming concepts explained in class.
-
-### 4️⃣ **Self-Studies**
-- Solutions to self-study exercises provided for independent learning.
-- Focuses on building problem-solving skills in C.
-
-### 5️⃣ **Midterm Exam Solutions**
-- My solutions to midterm exam questions, along with the official answer sheet for reference.
+Example notable folders
+- `first-year/programming-and-problem-solving-1/` — C programs, labs, lecture notes, midterm/final solutions.
+- `first-year/programming-and-problem-solving-2/` — Java labs and quizzes (look under `bin/` and `src/` subfolders).
+- `second-year/data-structers-and-algorithms/` — implementations for queues, stacks, etc.
 
 ---
 
-## 🚀 How to Use
+## Languages and tools used
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/umutcanekinci/programming-and-problem-solving.git
-   cd programming-and-problem-solving
-   ```
+- C (GCC / clang) — lots of `.c` and `.h` files in the first-year course folders.
+- Java (javac / java) — quizzes and lab exercises under `programming-and-problem-solving-2/`.
+- C++ — some data-structures/homework code under `second-year`.
+- Plain text / Markdown — notes and READMEs.
 
-2. Explore the folders to find the specific content you're interested in.
-
-3. Compile and run the `.c` files using a C compiler (e.g., GCC): 
-   ```bash
-   gcc filename.c -o output  
-   ./output
-   ```
-
-## 🌟 Goals and Learning Outcomes
-Through this repository, I aim to:
-
- - Document my learning process in C programming.
- - Share examples and solutions that might help others learning the language.
- - Demonstrate my skills in problem-solving and structured programming.
-
-## 📜 License
-This repository is for educational purposes only. Feel free to use it for reference or learning. Any direct reproduction for academic submissions is discouraged.
+This repository was prepared on Windows; examples use PowerShell-friendly commands where shown.
 
 ---
 
-Happy coding!
+## Quick start — open and run a sample
+
+1. Clone the repo (replace with your fork/SSH if needed):
+
+```powershell
+git clone https://github.com/umutcanekinci/software-engineering.git
+cd software-engineering
+```
+
+2. Find a C example (e.g., in `first-year/programming-and-problem-solving-1/labs/`):
+
+```powershell
+# compile
+gcc .\first-year\programming-and-problem-solving-1\labs\lab1.c -o lab1.exe
+# run
+.\lab1.exe
+```
+
+3. Compile and run a Java example (in PowerShell):
+
+```powershell
+cd .\first-year\programming-and-problem-solving-2\quiz-1\src
+javac *.java
+java UtilityCompany
+```
+
+Notes:
+- Replace file names with the actual file you want to run. Some folders contain helper headers and multiple source files that must be compiled together.
+- On Windows, use a MinGW/MSYS or WSL environment if you prefer Unix-like tooling.
+
+---
+
+## How the content is organized
+
+- Each course usually has a folder per lab/assignment or per exam. Inside you’ll often find `src/` and `bin/` for Java labs, or C files and `README.md` describing the task.
+- I kept original file names and created small subfolders for examples from previous years.
+
+If you plan to re-run code, read the local `README.md` files in each folder for course-specific instructions.
+
+---
+
+## Contribution and use
+
+This repository is a personal collection of course work and study material. You're welcome to consult or fork it for learning. If you reuse code in your own assignments, follow your institution's academic integrity rules.
+
+If you want to suggest improvements or corrections, open an issue or a pull request.
+
+---
+
+## License
+
+See `LICENSE` at the repository root for licensing details.
+
+---
+
+## Contact
+
+Owner: GitHub user `umutcanekinci` (repository owner). If you need to reach out, please use GitHub issues or pull requests.
+
+---
+
+If you'd like, I can also:
+- Add per-course README files where missing.
+- Add a small script to compile a set of C examples at once.
+- Generate a summary index file listing all `.c` and `.java` files with paths.
+
+Tell me which of those you'd prefer and I'll prepare it.
