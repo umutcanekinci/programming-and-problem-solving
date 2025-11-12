@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/PC/Desktop/lab/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MyProject.dir\\src\\assignment.cpp.obj -c C:\\Users\\PC\\Desktop\\lab\\src\\assignment.cpp",
+  "file": "C:/Users/PC/Desktop/lab/src/assignment.cpp",
+  "output": "CMakeFiles/MyProject.dir/src/assignment.cpp.obj"
+},
+{
+  "directory": "C:/Users/PC/Desktop/lab/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MyProject.dir\\src\\course.cpp.obj -c C:\\Users\\PC\\Desktop\\lab\\src\\course.cpp",
+  "file": "C:/Users/PC/Desktop/lab/src/course.cpp",
+  "output": "CMakeFiles/MyProject.dir/src/course.cpp.obj"
+},
+{
+  "directory": "C:/Users/PC/Desktop/lab/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MyProject.dir\\src\\instructor.cpp.obj -c C:\\Users\\PC\\Desktop\\lab\\src\\instructor.cpp",
+  "file": "C:/Users/PC/Desktop/lab/src/instructor.cpp",
+  "output": "CMakeFiles/MyProject.dir/src/instructor.cpp.obj"
+},
+{
+  "directory": "C:/Users/PC/Desktop/lab/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MyProject.dir\\src\\student.cpp.obj -c C:\\Users\\PC\\Desktop\\lab\\src\\student.cpp",
+  "file": "C:/Users/PC/Desktop/lab/src/student.cpp",
+  "output": "CMakeFiles/MyProject.dir/src/student.cpp.obj"
+},
+{
+  "directory": "C:/Users/PC/Desktop/lab/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MyProject.dir\\src\\submission.cpp.obj -c C:\\Users\\PC\\Desktop\\lab\\src\\submission.cpp",
+  "file": "C:/Users/PC/Desktop/lab/src/submission.cpp",
+  "output": "CMakeFiles/MyProject.dir/src/submission.cpp.obj"
+},
+{
+  "directory": "C:/Users/PC/Desktop/lab/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MyProject.dir\\src\\test.cpp.obj -c C:\\Users\\PC\\Desktop\\lab\\src\\test.cpp",
+  "file": "C:/Users/PC/Desktop/lab/src/test.cpp",
+  "output": "CMakeFiles/MyProject.dir/src/test.cpp.obj"
+}
+]

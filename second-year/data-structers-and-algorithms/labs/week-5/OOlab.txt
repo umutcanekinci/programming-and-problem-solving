@@ -1,0 +1,60 @@
+Suppose that you are given a task of developing some modules(parts) of Remote Education Application(i.e. Sakai) in C++
+by your team leader with following requirements:
+
+Your application will consist of six different classes which are
+	Instructor
+	Student
+	Course
+	Assignment
+	Submission
+	Test(class with main method)
+
+No need to explicitly write for all classes below,we are expecting from you to implement all the "necessary" constructors, getter-setter ,
+toString and equals methods.
+
+
+Instructor has the following attributes and methods:
+	name
+    surname
+	academicTitle //String i.e. "Assist.Prof."
+	instructorCourses //ArrayList<Course>
+
+	createCourse()
+	createAssignment()
+	printStudentList()
+	printAssignments() //will trigger same method in Course class
+	viewSubmissions() //will trigger printSubmission() in Assignment class
+
+	example mail format for Instructor -> name.surname@yasar.edu.tr
+	example fullname for Instructor -> Assist.Prof. Dindar Oz
+
+Student has the following attributes and methods:
+	id //String i.e. 13070001000
+	enrolledCourses //ArrayList<Course>
+
+	enrollCourse()
+	submitAssignment()
+	printAssignments() //will trigger same method in Course class
+
+Course has the following attributes and methods:
+	name //String
+	enrolledStudents //ArrayList<Student>
+	assignments //ArrayList<Assignment>
+
+	addStudent() //enrollCourse() from Student will trigger this
+	addAssignment() //createAssignment() from Instructor will trigger this
+
+	printAssignments() //where the assignments of that Course actually printed
+
+Assignment has the following attributes and methods:
+	title //String i.e. "Homework #1"
+	instructions //String i.e. "Do this, do that, code this etc."
+	submissions //ArrayList<Submission>
+
+	addSubmission()
+	printSubmission()
+
+Submission has the following attributes and methods:
+	owner //String i.e. "Atabarış Ayaydın" -> fullname
+	attachment //String i.e. "week2.c++"
+
